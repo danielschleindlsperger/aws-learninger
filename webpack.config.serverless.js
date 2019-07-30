@@ -61,6 +61,7 @@ module.exports = (async function() {
                 ],
                 '@babel/preset-typescript',
                 '@babel/preset-react',
+                '@emotion/babel-preset-css-prop',
               ],
             },
           },

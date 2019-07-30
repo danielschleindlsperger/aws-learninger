@@ -4,7 +4,7 @@ import { client } from '../db'
 import { validateNote, formatError } from '../model/note-validator'
 import { Json, ServerError, BadRequest } from '../utils/http'
 
-const tableName = process.env.TABLE_NAME
+const tableName = process.env.TABLE_NAME as string
 
 const parsePayload = (payload: any) => {
   try {

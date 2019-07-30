@@ -6,7 +6,7 @@ export type Note = {
 
   title: string
 
-  content: string
+  body: string
 
   /**
    * UTC date string
